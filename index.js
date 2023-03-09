@@ -105,7 +105,7 @@ function addIntern() {
             answers.internName,
             answers.internId,
             answers.internEmail,
-            answers.internEmail
+            answers.internSchool
         );
         team.push(intern);
         addTeamMember();
