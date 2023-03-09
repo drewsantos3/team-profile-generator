@@ -142,7 +142,7 @@ function addTeamMember() {
         </div>
         <div class="card-body">
             <p>ID: ${team[0].getId()}</p>
-            <p>Email: ${team[0].getEmail()}">${team[0].getEmail()}</a></p>
+            <p>Email: <a href= "mailto: ${team[0].getEmail()}">${team[0].getEmail()}</a></p>
             <p>Office Number: ${team[0].getOfficeNumber()}</p>
         </div>
         </div>`;
@@ -159,7 +159,7 @@ engineers.forEach((engineer) => {
     </div>
     <div class="card-body">
         <p>ID: ${engineer.getId()} </p>
-        <p>Email: <a href="mailto: ${engineer.getEmail()} </a></p>
+        <p>Email: <a href= "mailto: ${engineer.getEmail()}">${engineer.getEmail()} </a></p>
         <p>GitHub: <a href="https://GitHub.com/${engineer.getGithub()}" target="_blank"> ${engineer.getGithub()} </a></p>
     </div>
 </div>`;
